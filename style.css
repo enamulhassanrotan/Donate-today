@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #hader {
@@ -162,4 +163,27 @@ footer {
     font-size: 40px;
     font-style: italic;
     color: tomato;
+}
+
+.Importance-Of-Donation {
+    width: 40%;
+    height: 40%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.Importance-Of-Donation img {
+    width: 75%;
+
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.p {
+    text-align: center;
+    text-align: justify;
+    padding-bottom: 30px;
 }
