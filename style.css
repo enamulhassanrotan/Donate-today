@@ -1,3 +1,8 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 #hader {
     font-size: 80px;
 }
@@ -5,7 +10,7 @@
 .align1 {
     text-align: center;
     color: white;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 p {
@@ -14,10 +19,10 @@ p {
 
 .background-img1 {
     padding: 200px;
-    background-image: url(images/donation13.jpg);
+    background: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 100px;
+
 }
 
 .link-button {
@@ -30,7 +35,7 @@ p {
 
 }
 
-#hader2 {
+.hader2 {
     font-size: 50px;
     padding-top: 70px;
 }
@@ -63,5 +68,98 @@ p {
 }
 
 .para {
+    padding-bottom: 30px;
+}
+
+.input-1 {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    padding-left: 600px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+hr {
+    width: 50%;
+}
+
+.hr {
     padding-bottom: 50px;
+}
+
+.align3 {
+    text-align: center;
+}
+
+.div-class {
+    width: 30%;
+    margin: 2%;
+    padding: 20px;
+    text-align: left;
+}
+
+.display {
+    display: flex;
+}
+
+#b-col-1 {
+    background-color: rgb(184, 227, 227);
+}
+
+#b-col-2 {
+    background-color: rgb(193, 193, 219);
+}
+
+#b-col-3 {
+    background-color: rgba(217, 187, 182, 0.804);
+}
+
+.form {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: rgb(251, 217, 213);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+
+input[type="email"] {
+    font-size: 15px;
+    padding-left: 20px;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(188, 176, 176);
+}
+
+input[type="submit"] {
+    font-size: 15px;
+    height: 41px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: red;
+    color: white;
+    position: relative;
+    left: -5px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.h2 {
+    font-size: 40px;
+    font-style: italic;
+    color: tomato;
 }
